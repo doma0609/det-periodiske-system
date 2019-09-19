@@ -1,0 +1,94 @@
+body{
+  background-color: #9fccab;
+  font-family: helvetica;
+  margin: 0px;
+}
+
+nav{
+  display: flex;
+}
+nav a{ /*Velger alle a-elementer som ligger inne i nav*/
+  color:white; /* Velger skriftfarge på lenkene*/
+  text-decoration: none; /* Fjerner understrek på lenkene*/
+  padding: 50px; /* Lager 25px med luft rundt lenkene*/
+  font-size: 25px;
+  background-color: #548a76;
+}
+nav .active{ /*velger klassen inne i nav*/
+  background-color: #789680; /*setter bakgrunnsfarge på elementet som er active*/
+}
+nav a:hover{ /*velger a-elemtner som musen er over inne i nav*/
+  background-color: #789680; /*setter bakgrunnsfarge*/
+}
+.systemet{
+  display: grid;
+  grid-template-columns: repeat(18,1fr);
+  grid-gap: 5px;
+
+}
+
+.systemet2{
+  display: grid;
+  grid-template-columns: repeat(15,1fr);
+  grid-gap: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.span-16{
+  grid-column: span 16;
+}
+.usynlig{
+  opacity: 0;
+}
+.span-10{
+  grid-column: span 10;
+  grid-template-columns: repeat(10,1fr);
+}
+.usynlig{
+  opacity: 0;
+}
+.grunnstoff{
+  border-style: solid;
+  border-radius: 6px;
+  border-color: #548a76;
+}
+.tall, .navn{
+  text-align: center;
+}
+.tall{
+  font-size: 24px;
+}
+
+.grunnstoff{
+  background-color: white;
+}
+
+.morkegronn{
+  background-color:#32a852;
+}
+
+.rod{
+  background-color: #de4747;
+}
+.mgul{
+  background-color: #ebe660;
+}
+.gul{
+  background-color: #e6d57a;
+}
+
+.bla{
+  background-color: lightblue;
+}
+.rosa1{
+  background-color: #eb98eb;
+}
+.lgronn{
+  background-color: #a2e394;
+}
+.lys{
+  background-color: #cbe0bc;
+}
+.rosa2{
+  background-color: #d64dbf;
+}
